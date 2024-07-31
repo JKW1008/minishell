@@ -6,10 +6,15 @@
 /*   By: kjung <kjung@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/31 13:21:14 by kjung             #+#    #+#             */
-/*   Updated: 2024/07/31 13:23:14 by kjung            ###   ########.fr       */
+/*   Updated: 2024/07/31 13:48:25 by kjung            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../includes/minishell.h"
 
-void
+void	ft_parcing(char *str)
+{
+	char	**divided;
+
+	divided = ft_split(str, ' ');
+}
